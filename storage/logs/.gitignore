@@ -1,0 +1,8 @@
+*
+!.gitignore
+
+
+/vender
+/node_modules
+.env
+/storage/*.key
