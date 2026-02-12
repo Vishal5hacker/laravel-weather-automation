@@ -39,8 +39,8 @@ class WeatherCheck extends Command
 
         $temp = $data['current_weather']['temperature'];
 
-        if ($temp > 35) {
-            Log::alert(" Heat Alert! Temperature is {$temp}'C");
+        if ($temp > 36) {
+            Log::alert("Heat Alert! Temperature is {$temp}'C");
         } else {
             Log::info("Temperature normal: {$temp}'c");
         }
